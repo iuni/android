@@ -8,7 +8,7 @@
   <remote  name="github"
            fetch=".."
            review="review.cyanogenmod.org" />
-  <remote name="iuni"
+  <remote name="iurom"
           fetch="https://github.com" />
 
   <remote  name="private"
@@ -29,7 +29,7 @@
   <project path="art" name="CyanogenMod/android_art" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
-  <project path="bootable/recovery" name="iuni/android_bootable_recovery" remote="iuni" revision="cm-11.0" />
+  <project path="bootable/recovery" name="iuni/android_bootable_recovery" remote="iurom" revision="cm-11.0" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.4.2_r2" groups="cts" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
