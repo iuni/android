@@ -9,7 +9,7 @@
            fetch=".."
            review="review.cyanogenmod.org" />
   <remote name="iuni"
-          fetch="https://gihtub.com" />
+          fetch="https://github.com" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
